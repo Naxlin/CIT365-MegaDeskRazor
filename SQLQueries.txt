@@ -1,10 +1,10 @@
-INSERT INTO DesktopMaterialTABLENAME (COLUMNS)
+INSERT INTO DesktopMaterialTABLENAME (MaterialName, MaterialPrice)
 (VALUES),
-(VALUES),
+("Oak", 200.00),
 (VALUES);
 
-INSERT INTO ShippingTABLENAME (COLUMNS)
+INSERT INTO ShippingTABLENAME (ShippingName, ShippingUnder1000, ShippingBetween1000&2000, ShippingOver2000)
 (VALUES),
-(VALUES),
+("3 Day Rush", 40.00, 60.00, 80.00),
 (VALUES);
 
