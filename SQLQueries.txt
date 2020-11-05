@@ -1,0 +1,29 @@
+INSERT INTO DesktopMaterialTABLENAME (MaterialName, MaterialPrice)
+VALUES ("Oak", 200.00);
+
+INSERT INTO DesktopMaterialTABLENAME (MaterialName, MaterialPrice)
+VALUES ("Laminate", 100.00);
+
+INSERT INTO DesktopMaterialTABLENAME (MaterialName, MaterialPrice)
+VALUES ("Pine", 50.00);
+
+INSERT INTO DesktopMaterialTABLENAME (MaterialName, MaterialPrice)
+VALUES ("Rosewood", 300.00);
+
+INSERT INTO DesktopMaterialTABLENAME (MaterialName, MaterialPrice)
+VALUES ("Veneer", 125.00);
+
+
+
+INSERT INTO ShippingTABLENAME (ShippingName, ShippingUnder1000, ShippingBetween, ShippingOver2000)
+VALUES ("3 Day Rush", 60.00, 70.00, 80.00);
+
+INSERT INTO ShippingTABLENAME (ShippingName, ShippingUnder1000, ShippingBetween, ShippingOver2000)
+VALUES ("5 Day Rush", 40.00, 50.00, 60.00);
+
+INSERT INTO ShippingTABLENAME (ShippingName, ShippingUnder1000, ShippingBetween, ShippingOver2000)
+VALUES ("7 Day Rush", 30.00, 35.00, 40.00);
+
+INSERT INTO ShippingTABLENAME (ShippingName, ShippingUnder1000, ShippingBetween, ShippingOver2000)
+VALUES ("Normal 14 Days", 0.00, 0.00, 0.00);
+
