@@ -15,6 +15,8 @@ namespace MegaDeskRazor.Models
 
     public class Desk
     {
+        public int DeskId { get; set; }
+        
         [Required, Range(24, 97)]
         public decimal Width { get; set; }
 

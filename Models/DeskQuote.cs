@@ -17,7 +17,7 @@ namespace MegaDeskRazor.Models
 {
     public class DeskQuote
     {
-
+        public int DeskQuoteId { get; set; }
         public int DeskId { get; set; }
 
         [StringLength(256, MinimumLength = 3)]
@@ -33,8 +33,8 @@ namespace MegaDeskRazor.Models
 
         public Desk Desk { get; set; }
 
-        /*public int getRushOrderPrice()
-        {
+        public int getRushOrderPrice(){}
+        /*{
             int[,] rushPrices = new int[3,3];
             int rushPrice = 0;
             string line;
