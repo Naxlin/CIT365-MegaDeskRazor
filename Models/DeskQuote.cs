@@ -33,7 +33,7 @@ namespace MegaDeskRazor.Models
 
         public Desk Desk { get; set; }
 
-        public int getRushOrderPrice(){}
+        public int getRushOrderPrice() { return 0; }
         /*{
             int[,] rushPrices = new int[3,3];
             int rushPrice = 0;
